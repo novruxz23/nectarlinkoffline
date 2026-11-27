@@ -78,7 +78,7 @@ internal class WindowOverlayView(
         gravity = Gravity.TOP or Gravity.START
         x = placement.x
         y = placement.y
-        title = "NectarLink window"
+        setTitle("NectarLink window")
     }
 
     private var quarterTurns = 0
